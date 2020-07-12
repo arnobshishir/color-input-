@@ -1,0 +1,26 @@
+<!DOCKTYPE html>
+<html>
+<head>
+	<title>This is sample color js</title>
+	<script type="text/javascript">
+	function displayinput()
+	{
+		var input = document.getElementById("name").value;
+		if(input.length==0)
+		{ document.getElementById("para").innerHTML = "Hey, No Input Found!!!"; }
+		else
+			document.getElementById("para").innerHTML = input;
+		
+	}
+	
+	</script>
+
+</head>
+<body>
+	<input id="name"></input>
+	<p id="para"style="color:red;"></p>
+	<button onclick="displayinput();">color me plz</button>
+</body>
+
+
+</html>
